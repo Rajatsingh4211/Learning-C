@@ -15,7 +15,7 @@ printf("Enter the value of rate\n");
 printf("Enter the number of year\n");
  scanf("%d", &years); 
 
-SimpleInterest = (principal * rate * years);
+SimpleInterest = (principal * rate * years)/100;
 
 printf ("The value of SI is %d", SimpleInterest);
     return 0;
